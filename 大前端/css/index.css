@@ -1,0 +1,40 @@
+body{font-family: "Microsoft Yahei"!important; color: #555;}
+.top_dao {background: #fff; margin-bottom: 15px!important;  font-size: 18px ;}
+.top_dao a{color:#999;}
+.top_dao li a:hover{color:#45B6F7; text-decoration: none;}
+#daohang .miao img{padding: 0px 0 5px;}
+#daohang .miaoshu{font-size: 14px; line-height: 16px; color: #bbb; border-left: 1px solid #ddd; height: 30px; padding: 0 15px;  margin-left: 5px;}
+#daohang .daohang1{padding: 0 15px; color: #666;}
+#daohang .daohang1 a:hover{color: #45b6f7;}
+.logo{display: block; width: 137px; height: 32px; background: url(../imgs/index.png) no-repeat center;  }
+.header{position: relative;  padding: 55px 0 20px;}
+@media (max-width: 765px) {
+#daohang .miao{
+		float: none!important;
+		margin:0 auto;
+		width: 80px;
+		padding: 0;
+		position: relative;
+	}
+#daohang .btn{position: absolute; left: 0;top: 0;}
+.container-fluid{height: 42px;}
+
+.logo{height: 42px;width: 80px; background-size: 100%;}
+.top_dao{height: 42px; line-height: 42px; padding: 0; min-height: 0px!important;overflow: hidden;}
+.header{padding: 0;}
+}
+#daohang .lianjie{position: absolute; top: 0; width: 100%;}
+#daohang .lianjie ul{float: right;}
+#daohang .lianjie li{float: left; list-style: none;padding: 14px 20px; font-size: 14px;}
+#daohang .lianjie li ul li{padding: 0;}
+#daohang .active a{background:none; color:#45b6f7;}
+.shousuo{position: absolute!important; right: 15px; top: 70px!important;}
+/*body部分*/
+#body .left{margin-right: 380px;}
+#body .right{width: 360px; margin-left: -360px;}
+@media screen and (max-width: 1200px) {
+	#body .left{margin-right: 0;}
+}
+
+
+
