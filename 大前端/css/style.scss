@@ -1,0 +1,10 @@
+@mixin top{
+@mixin top{
+	width:200px;
+	a{display:inline-block; color:#fff;}
+}
+
+.footer {
+	@include top;
+
+}

@@ -1,4 +1,4 @@
-body{font-family: "Microsoft Yahei"!important; color: #555;}
+body{font-family: "Microsoft Yahei"!important; color: #555; background: #F6F6F6;}
 .top_dao {background: #fff; margin-bottom: 15px!important;  font-size: 18px ;}
 .top_dao a{color:#999;}
 .top_dao li a:hover{color:#45B6F7; text-decoration: none;}
@@ -17,7 +17,7 @@ body{font-family: "Microsoft Yahei"!important; color: #555;}
 		position: relative;
 	}
 #daohang .btn{position: absolute; left: 0;top: 0;}
-.container-fluid{height: 42px;}
+/*.container-fluid{height: 42px;}*/
 
 .logo{height: 42px;width: 80px; background-size: 100%;}
 .top_dao{height: 42px; line-height: 42px; padding: 0; min-height: 0px!important;overflow: hidden;}
@@ -30,10 +30,10 @@ body{font-family: "Microsoft Yahei"!important; color: #555;}
 #daohang .active a{background:none; color:#45b6f7;}
 .shousuo{position: absolute!important; right: 15px; top: 70px!important;}
 /*body部分*/
-#body .left{margin-right: 380px;}
-#body .right{width: 360px; margin-left: -360px;}
-@media screen and (max-width: 1200px) {
-	#body .left{margin-right: 0;}
+#body .left1{margin-right: 380px;}
+#body .right1{width: 360px; margin-left: -360px;}
+@media screen and (max-width: 1024px) {
+	#body .left1{margin-right: 0; width: 100%;}
 }
 
 
