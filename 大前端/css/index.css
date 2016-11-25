@@ -1,4 +1,7 @@
-body{font-family: "Microsoft Yahei"!important; color: #555; background: #F6F6F6;}
+body{font-family: "Microsoft Yahei"!important; color: #555; background: #F6F6F6!important; font-size: 12px;}
+h3,h4,ul,li{margin:0; padding: 0; }
+img{display: block;}
+ul li{ list-style: none; }
 .top_dao {background: #fff; margin-bottom: 15px!important;  font-size: 18px ;}
 .top_dao a{color:#999;}
 .top_dao li a:hover{color:#45B6F7; text-decoration: none;}
@@ -31,8 +34,9 @@ body{font-family: "Microsoft Yahei"!important; color: #555; background: #F6F6F6;
 .shousuo{position: absolute!important; right: 15px; top: 70px!important;}
 /*body部分*/
 #body .left1{margin-right: 380px;}
+#body .container{padding:0px;}
 #body .right1{width: 360px; margin-left: -360px;}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 990px) {
 	#body .left1{margin-right: 0; width: 100%;}
 }
 
